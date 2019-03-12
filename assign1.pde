@@ -11,12 +11,12 @@ float laserMove=0;
 
 void setup() {
 	size(640, 480, P2D);
-  bg = loadImage("bg.jpg");
-  soil = loadImage("soil.png");
-  life = loadImage("life.png");
-  groundHog = loadImage("groundhog.png");
-  soldier = loadImage("soldier.png");
-  robot = loadImage("robot.png");
+  bg = loadImage("img/bg.jpg");
+  soil = loadImage("img/soil.png");
+  life = loadImage("img/life.png");
+  groundHog = loadImage("img/groundhog.png");
+  soldier = loadImage("img/soldier.png");
+  robot = loadImage("img/robot.png");
   noStroke();
   
   soldierY = (int)random(2,6); //set soldier's Yposition as 160 or 240 or 320 or 400 
